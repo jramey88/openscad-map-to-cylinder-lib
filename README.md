@@ -15,9 +15,11 @@ The geometry of the object to be wrapped should lie along the X-Y plane, and the
     linear_extrude(1)
         text("Hello World!");
 
+![Screenshot of sample Bezier curve](screenshot.png)
+
 ## Caveats
 
-The geometry of the object to be wrapped should be X>=0, Y>=0, and Z<=0.
+The geometry of the object to be wrapped should be X>=0, Y>=0, and Z<=0. The height (along Y axis) should be up to *h*, and the width should be up to 2 * PI * *r*.
 
 The geometry to be wrapped may not be included when *intersecton()* is executed. Make sure all geometry is inside the bounds. Anything outside the bounds will be excluded.
 

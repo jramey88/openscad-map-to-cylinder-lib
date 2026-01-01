@@ -1,0 +1,10 @@
+{
+	"name": "openscad-map-to-cylinder-lib",
+	"version": "1.0.0",
+	"description": "Map to cylinder library for OpenSCAD",
+	"main": "map_to_cylinder.scad",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jramey88/openscad-map-to-cylinder-lib"
+	}
+}

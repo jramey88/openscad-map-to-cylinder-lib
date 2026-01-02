@@ -21,7 +21,7 @@ The geometry of the object to be wrapped should lie along the X-Y plane, and the
 
 The geometry of the object to be wrapped should be X>=0, Y>=0, and Z<=0. The height (along Y axis) should be up to *h*, and the width should be up to 2 * PI * *r*.
 
-The geometry to be wrapped may not be included when *intersecton()* is executed. Make sure all geometry is inside the bounds. Anything outside the bounds will be excluded.
+The geometry to be wrapped may not be included when *intersection()* is executed. Make sure all geometry is inside the bounds. Anything outside the bounds will be excluded.
 
 The final object may result in slightly jagged edges, not a smooth geometry. This is expected. The final object is constructed of thin slices. For smoother results, increase the value of *fn*.
 

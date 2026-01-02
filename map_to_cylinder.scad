@@ -29,7 +29,6 @@ module map_to_cylinder(r, h, fn=32){
 }
 
 module map_to_cylinder_test(){
-    render()
     map_to_cylinder(20, 20, fn=128)
     translate([0, 0, -1])
     linear_extrude(1)
